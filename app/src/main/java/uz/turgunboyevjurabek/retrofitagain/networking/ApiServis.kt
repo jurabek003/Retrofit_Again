@@ -6,6 +6,6 @@ import uz.turgunboyevjurabek.retrofitagain.madels.ApiGet
 
 interface ApiServis {
     @GET("posts/")
-   suspend fun getAllItem():retrofit2.Call<List<ApiGet>>
+    fun getAllItem():retrofit2.Call<List<ApiGet>>
 
 }
